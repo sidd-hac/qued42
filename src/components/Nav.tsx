@@ -162,7 +162,7 @@ const Navbar = ({
                     <ul className="space-y-4 p-6">
                         <li>
                             <a
-                                href="/shop"
+                                href="#"
                                 className="block text-gray-800 hover:text-purple-600 font-medium transition duration-300 ease-in-out"
                             >
                                 Shop
@@ -170,7 +170,7 @@ const Navbar = ({
                         </li>
                         <li>
                             <a
-                                href="/about"
+                                href="#"
                                 className="block text-gray-800 hover:text-purple-600 font-medium transition duration-300 ease-in-out"
                             >
                                 About
@@ -178,7 +178,7 @@ const Navbar = ({
                         </li>
                         <li>
                             <a
-                                href="/contact"
+                                href="#"
                                 className="block text-gray-800 hover:text-purple-600 font-medium transition duration-300 ease-in-out"
                             >
                                 Contact
