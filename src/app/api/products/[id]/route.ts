@@ -1,10 +1,7 @@
 
 import { NextResponse } from "next/server";
 
-export async function GET(
-    request: Request,
-    { params }: { params: { id: string } }
-) {
+export async function GET({ params }: { params: { id: string } }) {
 
     if (!params.id || isNaN(Number(params.id))) {
         return NextResponse.json({ error: "Invalid product ID" }, { status: 400 });
